@@ -1,0 +1,16 @@
+html,
+body {
+  margin-top: 24px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+
+* {
+  /* box-sizing: border-box; */
+  padding: 0;
+  margin: 0;
+}
