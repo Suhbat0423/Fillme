@@ -9,8 +9,7 @@ import { useState } from "react";
 export default function App({ Component, pageProps }) {
   const checkName = () => {
     const router = useRouter();
-    if (router.pathname !== "/login" && router.pathname !== "/register") {
-      console.log("mognol");
+    if (router.pathname === "/login" && router.pathname === "/register") {
     }
   };
 

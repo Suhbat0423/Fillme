@@ -31,4 +31,14 @@
   display: flex;
 }
 .search {
+  width: 252px;
+  height: 700px;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin-right: 20px;
+}
+.surveys {
+  width: 100%;
+  height: 100%;
+  background-color: ;
 }
