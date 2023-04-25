@@ -1,4 +1,5 @@
 import style from "./survey.module.css";
+import Survey from "../../Components/survey";
 
 const Surveys = () => {
   return (
@@ -9,7 +10,9 @@ const Surveys = () => {
       </div>
       <div className={style.containerSurvey}>
         <div className={style.search}></div>
-        <div className={style.surveys}></div>
+        <div className={style.surveys}>
+          <Survey />
+        </div>
       </div>
     </div>
   );
